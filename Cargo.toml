@@ -1,0 +1,11 @@
+[package]
+name = "spike-bloom"
+version = "0.0.1"
+authors = ["neonphog <neonphog@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+blake2b_simd = "0.5.11"
+bloomfilter = "1.0.5"
+streaming-stats = "0.2.3"
+rand = "0.8.3"
